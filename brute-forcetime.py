@@ -17,7 +17,7 @@ for num in range(100, 130):
   attempts += 1
   print(f"\033[91mTrying: {guess} ...\033[0m")
 
-  # პატარა შეყოვნება ვიზუალისთვის
+  #  შეყოვნება 
   time.sleep(0.05)
 
   if guess == target_password:
